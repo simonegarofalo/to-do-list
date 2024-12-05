@@ -3,7 +3,7 @@ const listContainer = document.getElementById('list-container');
 
 function addTask(){
     if(inputBox.value === ''){
-        alert('Devi inserire un promemoria!')
+        alert('Add new reminder!')
     }
     else{
         let li = document.createElement('li');
